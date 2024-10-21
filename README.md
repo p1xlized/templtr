@@ -1,1 +1,1 @@
-## tmpltr - start coding, not configing
+## :sailboat: tmpltr - start coding, not configing
