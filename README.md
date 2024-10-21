@@ -15,6 +15,8 @@ A Bash script to easily start projects.
 - **Bash**
 - **jq**: Install with:
   - **Ubuntu/Debian**: `sudo apt-get install jq`
+  - **OpenSUSE Tumbleweed**: `sudo zypper in jq`
+  - **Fedora**: `sudo dnf install jq`
   - **macOS**: `brew install jq`
 
 ## Usage
