@@ -2,7 +2,7 @@
 
 ## Overview
 
-A Bash script to scan to easily start projects.
+A Bash script to easily start projects.
 
 ## Features
 
