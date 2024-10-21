@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ensure the output directory exists
-config_dir="$HOME/.config/templtr/db"
+export config_dir="$HOME/.config/templtr/db"
 mkdir -p "$config_dir"  # Creates the directory if it doesn't exist
 
 # Prompt for the folder to scan
