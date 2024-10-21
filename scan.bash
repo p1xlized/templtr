@@ -1,12 +1,14 @@
 #!/bin/bash
 
 # Ensure the output directory exists
-config_dir="$HOME/.config/templtr"
+config_dir="$HOME/.config/templtr/db"
 mkdir -p "$config_dir"  # Creates the directory if it doesn't exist
 
 # Prompt for the folder to scan
 echo "Enter the folder to scan:"
 read folder
+echo "Enter the template name:"
+read tmpltname
 
 # Initialize arrays for files and directories
 files=()
@@ -51,7 +53,7 @@ done
 json_output+="]}"
 
 # Save the JSON output to ~/.config/templtr/dir.json
-output_file="$config_dir/dir.json"
+output_file="$config_dir/$tmpltname.json"
 echo "$json_output" > "$output_file"
 
 # Inform the user
